@@ -1,0 +1,17 @@
+<div>
+  <h1>{{'tile' | translate}}</h1>
+  <mat-form-field>
+    <mat-label>Lang</mat-label>
+    <mat-select [formControl]="langChange"> >
+      <mat-option *ngFor="let item of lang" [value]="item.value">
+        {{item.viewValue}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  <section>
+      <button [routerLink]="['/product']" mat-raised-button color="primary">{{'product' | translate}}</button>
+      <button [routerLink]="['/checkout']" mat-raised-button color="accent">{{'checkout' | translate}}</button>
+      <button [routerLink]="['/payment']" mat-raised-button>{{'payment' | translate}}</button>
+  </section>
+  <router-outlet></router-outlet>
+</div>
