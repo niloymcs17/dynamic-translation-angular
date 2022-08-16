@@ -3,9 +3,20 @@ All the translation files are specific to its own module. Files are being loaded
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.11.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Installation 
+To run this locally 
+```bash
+  npm install 
+  ng serve --o
+```
+Step for adding ngx-translate 
+
+```bash
+  npm install @ngx-translate/core --save
+```
+
+
 
 
 ## Screenshots
