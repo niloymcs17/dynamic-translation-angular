@@ -5,15 +5,38 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 
 ## Installation 
-To run this locally 
-```bash
-  npm install 
-  ng serve --o
-```
+
 Step for adding ngx-translate 
 
 ```bash
   npm install @ngx-translate/core --save
+```
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone 
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
 ```
 
 
