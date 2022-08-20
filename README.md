@@ -3,6 +3,9 @@ All the translation files are specific to its own module. Files are being loaded
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.11.
 
+# Netlify Site
+https://niloy-translate-lazyload.netlify.app/
+
 
 ## Installation 
 
